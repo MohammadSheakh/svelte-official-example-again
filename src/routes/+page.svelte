@@ -2,6 +2,8 @@
   import "../app.css";
 	import NestedComponents from "./Introduction/NestedComponents.svelte";
 	import ReactiveAssignment from "./Reactivity/ReactiveAssignment.svelte";
+  import ReactiveDeclarations from "./Reactivity/ReactiveDeclarations.svelte";
+	import ReactiveStatements from "./Reactivity/ReactiveStatements.svelte";
   let name = 'world';
 </script>
 
@@ -14,15 +16,22 @@
       <NestedComponents/>
     </div>
     
-    <h1 class="text-yellow-500 font-bold">Reactive Assignment</h1>
+    <h1 class="text-yellow-500 font-bold">Reactivity</h1>
     <div class="ml-[20%]">
       <ReactiveAssignment/>
+      <ReactiveDeclarations/>
+      <ReactiveStatements/>
     </div>
     
   </div>
   
 </div>
-
-<div class="ml-[20%]">
+<!--
+ <div>
+  <h1 class="text-yellow-500 font-bold"></h1>
+  <div class="ml-[20%]">
       
+  </div>
 </div>
+ -->
+

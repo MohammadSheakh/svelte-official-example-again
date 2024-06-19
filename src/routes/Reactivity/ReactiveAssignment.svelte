@@ -5,6 +5,7 @@
   }
 </script>
 
+<h1 class="text-yellow-800 font-semibold">Reactive Assignment</h1>
 <button on:click={handleClick} class="border border-2 p-1 rounded-lg">
   Clicked {count} {count === 1 ? 'time' : 'times'}
 </button>
