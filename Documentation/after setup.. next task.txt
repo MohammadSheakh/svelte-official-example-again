@@ -1,0 +1,7 @@
+Next steps:
+  1: cd svelte-official-example-again
+  2: pnpm install
+  3: git init && git add -A && git commit -m "Initial commit" (optional)
+  4: pnpm run dev -- --open
+
+Pnpm Update : pnpm add -g pnpm
