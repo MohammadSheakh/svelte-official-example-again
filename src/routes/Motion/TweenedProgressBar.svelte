@@ -15,15 +15,15 @@
 <progress value={$progress} class="w-[40%] flex "/>
 <div class="mt-3">
 	
-<button on:click={() => progress.set(0)} class="border border-2 border-blue-300 p-1 rounded-lg "> 0% </button>
+<button on:click={() => progress.set(0)} class="customBtn"> 0% </button>
 
-<button on:click={() => progress.set(0.25)} class="border border-2 border-blue-300 p-1 rounded-lg "> 25% </button>
+<button on:click={() => progress.set(0.25)} class="customBtn"> 25% </button>
 
-<button on:click={() => progress.set(0.5)} class="border border-2 border-blue-300 p-1 rounded-lg "> 50% </button>
+<button on:click={() => progress.set(0.5)} class="customBtn"> 50% </button>
 
-<button on:click={() => progress.set(0.75)} class="border border-2 border-blue-300 p-1 rounded-lg "> 75% </button>
+<button on:click={() => progress.set(0.75)} class="customBtn"> 75% </button>
 
-<button on:click={() => progress.set(1)} class="border border-2 border-blue-300 p-1 rounded-lg "> 100% </button>
+<button on:click={() => progress.set(1)} class="customBtn"> 100% </button>
 
 </div>
 

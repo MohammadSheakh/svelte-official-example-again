@@ -23,7 +23,7 @@
 <div>
   <h1 class="text-yellow-800 font-semibold">Reactive Statement</h1>
   <div class="ml-[10%]">
-  <button on:click={handleClick} class="border border-2 border-blue-300 p-1 rounded-lg">
+  <button on:click={handleClick}  class="customBtn">
     Count: {count} 
   </button>
 
@@ -31,7 +31,7 @@
   <p class="text-red-300">{status}</p>
 
   { #if count <= 2 && count >0 }
-    <button on:click={handleCountReduce} class="border border-2 border-blue-300 p-1 rounded-lg">
+    <button on:click={handleCountReduce} class="customBtn">
       -
     </button>  
   {/if}

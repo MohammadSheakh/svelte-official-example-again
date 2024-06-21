@@ -8,9 +8,9 @@
 
 <h1>The count is {$count}</h1>
 
-<button on:click={count.increment}   class="border border-2 border-blue-300 p-1 rounded-lg font-bold text-2xl">+</button>
-<button on:click={count.decrement}   class="border border-2 border-blue-300 p-1 rounded-lg font-bold text-2xl">-</button>
-<button on:click={count.reset}   class="border border-2 border-blue-300 p-1 rounded-lg font-bold text-2xl">reset</button>
+<button on:click={count.increment}   class="customBtn font-bold text-2xl">+</button>
+<button on:click={count.decrement}   class="customBtn font-bold text-2xl">-</button>
+<button on:click={count.reset}   class="customBtn font-bold text-2xl">reset</button>
 
 </div>
 </div>  

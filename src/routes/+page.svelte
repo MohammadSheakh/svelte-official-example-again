@@ -30,6 +30,7 @@
 	import ReadableStores from "./Stores/Readable stores/ReadableStores.svelte";
 	import CustomStores from "./Stores/Custom stores/CustomStores.svelte";
   import TweenedProgressBar from "./Motion/TweenedProgressBar.svelte";
+	import Crud from "./CRUD.svelte";
   let name = 'world';
 </script>
 
@@ -121,6 +122,13 @@
       <h1 class="text-yellow-500 font-bold">Motion</h1>
       <div class="ml-[10%]">
         <TweenedProgressBar/>
+      </div>
+    </div>
+
+    <div>
+      <h1 class="text-yellow-500 font-bold">7GUIS</h1>
+      <div class="ml-[10%]">
+        <Crud/>
       </div>
     </div>
     

@@ -14,7 +14,7 @@
 <div>
   <h1 class="text-yellow-800 font-semibold">Reactive Declarations</h1>
   <div class="ml-[10%]">
-    <button on:click={handleClick} class="border border-2 border-blue-300 p-1 rounded-lg ">
+    <button on:click={handleClick} class="customBtn">
       Count: {count}
     </button>
   
