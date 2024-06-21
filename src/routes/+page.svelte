@@ -22,6 +22,14 @@
 	import SelectMultiple from "./Bindings/SelectMultiple.svelte";
 	import SelectBindings from "./Bindings/SelectBindings.svelte";
 	import EachBlockBindings from "./Bindings/EachBlockBindings.svelte";
+	import OnMount from "./LifeCycle/onMount.svelte";
+	import OnDestroy from "./LifeCycle/onDestroy/onDestroy.svelte";
+	import BeforeUpdateandafterUpdate from "./LifeCycle/beforeUpdate and  afterUpdate.svelte";
+	import Tick from "./LifeCycle/tick.svelte";
+	import WritableStores from "./Stores/Writable stores/WritableStores.svelte";
+	import ReadableStores from "./Stores/Readable stores/ReadableStores.svelte";
+	import CustomStores from "./Stores/Custom stores/CustomStores.svelte";
+  import TweenedProgressBar from "./Motion/TweenedProgressBar.svelte";
   let name = 'world';
 </script>
 
@@ -84,6 +92,35 @@
           <SelectBindings/>
           <SelectMultiple/>
           <EachBlockBindings/>
+      </div>
+    </div>
+
+    <div>
+      <h1 class="text-yellow-500 font-bold">LifeCycle</h1>
+      <div class="ml-[10%]">
+          <OnMount/>
+
+           <OnDestroy/>
+          <BeforeUpdateandafterUpdate/>
+          <Tick/>
+          
+      </div>
+    </div>
+
+    <div>
+      <h1 class="text-yellow-500 font-bold">Stores</h1>
+      <div class="ml-[10%]">
+          <WritableStores/>
+          <ReadableStores/>
+          
+          <CustomStores/>
+      </div>
+    </div>
+
+    <div>
+      <h1 class="text-yellow-500 font-bold">Motion</h1>
+      <div class="ml-[10%]">
+        <TweenedProgressBar/>
       </div>
     </div>
     
